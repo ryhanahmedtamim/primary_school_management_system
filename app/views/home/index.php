@@ -1,13 +1,10 @@
-    <?php 
-      
-    ?>
 
     <!DOCTYPE html>
     <html>
     <head>
     <title>Home</title>
 
-   <link href="../css/style.css" rel="stylesheet" type="text/css" >
+   <link href="http://localhost/primary_school_management_system/css/style.css" rel="stylesheet" type="text/css" >
     </head>
     <body class="body-home" >                  
                 
@@ -15,7 +12,6 @@
            <li class="li1">
            <a class="li-a" href="">Home</a></li>
            <li class="li1"><a class = "li-a"  href="login">Login</a></li>
-           <li class="li1"><a class = "li-a"  href="">Register</a></li>
         </ul>
                     
 
@@ -24,7 +20,7 @@
                <div style="padding-top: 280px">
                 <div class="content">
                     <div class="title">
-                        myFrame
+                       115 No. Mazrah Govt. Primary School
                     </div>
                 </div>
             </div>

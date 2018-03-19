@@ -1,7 +1,7 @@
 Options -Multiviews
 RewriteEngine On
 
-RewriteBase /myframe/public/
+RewriteBase /primary_school_management_system/public/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

@@ -5,9 +5,9 @@
   	  
   public  function singleDataQuery($querString)
    {
+   
+   	$connection = getDatabase("root","","primary_school");
    	
-
-   	$connection = getDatabase($user,$dbpassword,$databaseName);
       $result = mysqli_query($connection,$querString);
 		if (mysqli_num_rows($result)>0) 
 			{
@@ -26,7 +26,7 @@
    
    public function dataQuery($querString)
    {
-   	
+   	$connection = getDatabase("root","","primary_school");
       $result = mysqli_query($connection,$querString);
 		if (mysqli_num_rows($result)>0) 
 			{
@@ -45,7 +45,7 @@
 	}
 	function booleanQuery($queryString)
 	{
-        $connection = getDatabase($user,$dbpassword,$databaseName);
+		$connection = getDatabase("root","","primary_school");
 		if (mysqli_query($connection, $queryString)) 
 		{
          return true;
