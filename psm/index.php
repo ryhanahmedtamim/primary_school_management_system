@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title> Primary School Management System</title>
-        <link rel ="stylesheet" type ="text/css" href ="style.css">
+        <link rel ="stylesheet" type ="text/css" href ="asset/style.css">
      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <script src="https://code.jquery.com/jquery-3.2.1.js">
