@@ -6,7 +6,13 @@
 		
 		public function index($data = [])
 		{
-			$this->view("headteacher/home",$data);
+
+			$id = $_SESSION['id'];
+			$Teach = $this->model("Teach");
+			$result = $Teach->myClass($id);
+			
+			$this->view("headteacher/home",$data,$result);
+
 
 		}
 
@@ -57,6 +63,46 @@
 		public function add_teacher()
 		{
 			$this->view("headteacher/add_teacher");
+		}
+
+		public function registerTeacher()
+		{
+			$firstName = $_POST['firstName'];
+			$lastName = $_POST['lastName'];
+			$t_id = $_POST['t_id'];
+			$position = $_POST['position'];
+			$email = $_POST['email'];
+			$phoneNumber = $_POST['phoneNumber'];
+			$address = $_POST['address'];
+			$city = $_POST['city'];
+			$password = $_POST['password'];
+
+			$password = md5($password);
+
+			$Teacher = $this->model("Teacher");
+
+			$result = $Teacher->addTeacher($t_id,$firstName,$lastName,$phoneNumber,$position,$address,$city,$email,$password);
+
+				if($result == true)
+				{
+					header("Location: http://localhost/primary_school_management_system/public/head/true2");
+								
+
+				}
+		}
+
+		public function allClasses()
+		{
+			$Teach = $this->model("Teach");
+			$result = $Teach->allClass();
+			$this->view("headteacher/allclass",$result);
+		}
+
+		public function all_teacher()
+		{
+			$Teach = $this->model("Teach");
+			$result = $Teach->allteacher();
+			$this->view("headteacher/allteacher",$result);
 		}
 	}
 

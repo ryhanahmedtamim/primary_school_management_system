@@ -72,7 +72,7 @@
                 <hr>
                 <br>
                 
-                <form  action ="http://localhost/primary_school_management_system/public/head/registerStudent" method="POST">
+                <form  action ="http://localhost/primary_school_management_system/public/head/registerTeacher" method="POST">
                         <div>
                         <label >First Name</label>
                         <input type="text" id="text" name ="firstName" required autofocus/>
@@ -90,6 +90,8 @@
 
                         <div><label >E-mail</label>
                         <input type="email" id="user" name ="email" required autofocus/></div>
+                        <div><label >Position</label>
+                        <input type="text" id="text" name ="position" required autofocus/></div>
                         
                         <div><label >Contact Number</label>
                         <input type="text" id="user" name ="phoneNumber" required autofocus/></div>
@@ -104,13 +106,7 @@
                         <div><label >City</label>
                         <input type="text" id="user" name ="city" required autofocus/></div>
 
-                        <!-- <div><label >User Type</label>
-                         <select  name="userType" required autofocus>     
-                              <option value=""></option>                      
-                              <option value="staff">Staff</option>
-                              <option value="client">Client</option>
-                              
-                        </select></div> -->
+                        
 
                          
                                             

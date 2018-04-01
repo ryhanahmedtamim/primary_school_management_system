@@ -7,7 +7,10 @@ class Teachercontroller extends Controller
 	
 	public function index($data=[])
 	{
-		$this->view("teacher/home");
+		$id = $_SESSION['id'];
+		$Teach = $this->model("Teach");
+		$result = $Teach->myClass($id);
+		$this->view("teacher/home",$data,$result);
 	}
 
 	public function add_student()

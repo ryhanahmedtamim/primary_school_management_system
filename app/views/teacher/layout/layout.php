@@ -7,10 +7,10 @@
 <body class="body-home">
            <ul class="ul1">
                <li class="li1">
-               <a class="li-a" href="http://localhost/primary_school_management_system/teacher/home">Home</a></li>
+               <a class="li-a" href="http://localhost/primary_school_management_system/public/teacher/">Home</a></li>
                
                <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/teacher/add_student">Add student</a></li>
-               <li class="li1"><a class = "li-a"  href="">All Class</a></li>               
+               <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/teacher/">All Class</a></li>               
 
                <li class="li2"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/login/logout">Logout</a></li>
 

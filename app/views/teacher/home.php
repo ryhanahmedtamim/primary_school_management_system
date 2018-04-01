@@ -40,6 +40,38 @@
                             ?> 
                             </div>
 
+                            <div class="container-fluid">
+    <div class="row">
+
+
+
+    <div class="col-md-5 col-md-offset-2" style="margin-top:50px;">
+      <h1>My class :</h1>
+        <?php 
+        if(sizeof($data2)>0 )
+        {
+        
+          for($i=0; $i<sizeof($data2); $i++)
+          {                  
+          
+        ?>
+           
+            
+              
+              <h2>
+              <?php
+              echo "Subject Id :".$data2[$i]['sub_id'];
+              echo "   Subject Name : ".$data2[$i]['sub_name'];                           
+             ?>
+           </h2>
+             <?php 
+              }
+            }
+            ?>
+        </div>        
+    </div>
+</div>
+
 
     </body>
     </html>
