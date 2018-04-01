@@ -4,9 +4,9 @@
 	class homecontroller extends Controller
 	{
 		
-		public function index()
+		public function index($data =[])
 		{
-			$this->view('home/index');
+			$this->view('home/index',$data);
 		}
 	}
 ?>

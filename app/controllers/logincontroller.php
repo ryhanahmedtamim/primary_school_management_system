@@ -52,7 +52,7 @@
 				{
 
 					$data = "This email or password is not match";
-	  			header("Location: http://localhost/primary_school_management_system/public/login/".$data);
+	  			header("Location: http://localhost/primary_school_management_system/public/".$data);
 	  			}
 			}
 

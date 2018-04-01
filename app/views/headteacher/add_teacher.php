@@ -95,9 +95,6 @@
                         <input type="text" id="user" name ="phoneNumber" required autofocus/></div>
 
                         <div>
-
-                         
-
                          
                         <h2>Address</h2>
                         <hr>
