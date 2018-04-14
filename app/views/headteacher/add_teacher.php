@@ -67,7 +67,8 @@
 
             <div class="div1">
 
-                <div style="margin-left: 30px; font-size: 20px;">Student info
+                <div style="margin-left: 30px; font-size: 20px;">
+                  Teacher info
                 </div>
                 <hr>
                 <br>
