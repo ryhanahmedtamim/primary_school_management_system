@@ -10,7 +10,11 @@
                <a class="li-a" href="http://localhost/primary_school_management_system/public/teacher/">Home</a></li>
                
                <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/teacher/add_student">Add student</a></li>
-               <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/teacher/">All Class</a></li>               
+               <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/teacher/allClasses">All Class</a></li>
+
+               <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/teacher/result">Result</a></li>
+
+
 
                <li class="li2"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/login/logout">Logout</a></li>
 

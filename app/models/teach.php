@@ -28,5 +28,12 @@
 			$result = $this->dataQuery($querySring);
 			return $result;
 		}
+
+		public function updateClass($t_id,$sub_id)
+		{
+			$querySring = "UPDATE teach SET t_id = '$t_id' WHERE sub_id = '$sub_id'";
+			$result = $this->booleanQuery($querySring);
+			return $result;
+		}
 	}
 ?>

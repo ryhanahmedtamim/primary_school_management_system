@@ -41,7 +41,7 @@
 					$_SESSION['userName'] = $result['email'];
 				$_SESSION['name'] = $result['f_name'] + $result['l_name'];
 				$_SESSION['position'] = $result['position'];
-				$_SESSION['id'] = $result['t_id'];
+				$_SESSION['id'] = $result['id'];
 				$_SESSION['login'] = 1;
 
 				$userType = "parent";

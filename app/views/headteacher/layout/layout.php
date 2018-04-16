@@ -15,6 +15,9 @@
                <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/head/add_teacher">Add Treacher</a></li>
                <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/head/add_student">Add student</a></li>
                
+               <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/head/absent_student">Absent Stuents</a></li>
+
+               <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/head/result">Result</a></li>               
 
                <li class="li2"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/login/logout">Logout</a></li>
 

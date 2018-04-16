@@ -92,7 +92,9 @@
                         <div><label >E-mail</label>
                         <input type="email" id="user" name ="email" required autofocus/></div>
                         <div><label >Position</label>
-                        <input type="text" id="text" name ="position" required autofocus/></div>
+                        <select  name="position" required autofocus>     
+                              <option value="teacher"> Teacher</option>
+                            </select>
                         
                         <div><label >Contact Number</label>
                         <input type="text" id="user" name ="phoneNumber" required autofocus/></div>

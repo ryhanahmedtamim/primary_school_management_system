@@ -28,5 +28,12 @@
 			$result = $this->booleanQuery($querySring);
 			return $result;
 		}
+
+		public function getAllTeacher()
+		{
+			$querySting = "SELECT t_id,f_name,l_name FROM teacher";
+			$result = $this->dataQuery($querySting);
+			return $result;	
+		}
 	}
 ?>

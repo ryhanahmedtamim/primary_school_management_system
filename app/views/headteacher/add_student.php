@@ -90,9 +90,27 @@
 
                         <div>
 
-                        <label >Class</label>
-                        <input type="text" id="text" name ="class" required autofocus/>
-                        </div>
+                        <div><label >Select Class</label>
+                        <select  name="class" required autofocus>     
+                              <option value=""></option>
+                                                   
+                              <option value="1">
+                                1
+                              </option>
+                              <option value="2">
+                                2
+                              </option>
+                              <option value="3">
+                                2
+                              </option>
+                              <option value="4">
+                                4
+                              </option>
+                              <option value="5">
+                                5
+                              </option>                      
+     
+                        </select></div>
 
 
                          <div> <label >Date Of Birth</label>

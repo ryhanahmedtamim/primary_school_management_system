@@ -24,15 +24,18 @@
     			
     		?>
            <h1>
-           	<?php 
-           	echo "Class ";
-           	  echo $i;
-           	  $n = 6;
-           	  if($i==1 || $i==2)
-           	  {
-           	  	$n = 3;
-           	  }
-           	?>
+            <a href="<?php 
+            echo "class/".$i;                           
+            ?>"><?php echo "Class ".$i; ?>  </a>
+
+            <?php
+              $n = 6;
+              if($i==1 || $i==2)
+              {
+                $n = 3;
+              }
+            ?>
+           	
            	
            </h1>
            <hr>
@@ -43,7 +46,8 @@
                             <tr>
                                 <th>Subject Id</th>
                                 <th>Subject Name</th>
-                                <th>Teache Name</th>   
+                                <th>Teache Name</th> 
+                                <th>Action</th>  
                                                                
                             </tr>
                         </thead>                       
@@ -55,7 +59,7 @@
                         	{
 
                         	
-                        ?> 
+                             ?> 
                         	<tr>
                         		<td><?php echo $data[$j]['sub_id']; 
 
@@ -67,6 +71,10 @@
                         		<td><?php echo $data[$j]['f_name']." ".$data[$j]['l_name']; 
                         		
                         		?></td>
+
+                                <td>
+                                    <a class="button-radious-8 button-send  button-hover-blue" href="http://localhost/primary_school_management_system/public/head/update/<?php echo $data[$j]['sub_id']; ?>">Update</a>
+                                </td>
 
 
                         	</tr>

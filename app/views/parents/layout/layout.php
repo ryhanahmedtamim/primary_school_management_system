@@ -7,9 +7,8 @@
 <body class="body-home">
            <ul class="ul1">
                <li class="li1">
-               <a class="li-a" href="http://localhost/primary_school_management_system/public/paents/home">Home</a></li>
-               <li class="li1"><a class = "li-a"  href="">Attendance</a></li>
-               <li class="li1"><a class = "li-a"  href="">Result</a></li>
+               <a class="li-a" href="http://localhost/primary_school_management_system/public/parent/home">Home</a></li>
+               <li class="li1"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/parent/result">Result</a></li>
 
                <li class="li2"><a class = "li-a"  href="http://localhost/primary_school_management_system/public/login/logout">Logout</a></li>
 

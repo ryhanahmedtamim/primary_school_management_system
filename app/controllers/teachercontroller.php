@@ -59,6 +59,42 @@ class Teachercontroller extends Controller
 
 
 		}
+
+		public function allClasses()
+		{
+			$Teach = $this->model("Teach");
+			$result = $Teach->allClass();
+			$this->view("teacher/allclass",$result);
+		}
+
+		public function class($class)
+		{
+			$Student = $this->model("Student");
+			$result = $Student->getAlldetails($class);
+			$this->view("teacher/class",$result);
+		}
+
+		public function studentDetails($sId)
+		{
+			$Student = $this->model("Student");
+			$result = $Student->getStudentDetails($sId);
+			//print_r($result);
+			$this->view("teacher/student_status",$result);
+		}
+
+		public function result()
+		{
+			$this->view("teacher/result",$result);
+		}
+
+		public function getResult()
+		{
+			$class = $_POST['class'];
+			$Student = $this->model("Student");
+			$result = $Student->getStuedtResults($class);
+			//print_r($result);
+			$this->view("teacher/classresult",$result);
+		}
 }
 
 ?>
