@@ -1,1 +1,2 @@
-# primary_school_management_system
+# Primary School Mangement System
+
